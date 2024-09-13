@@ -1,5 +1,5 @@
 INPUT_SCHEMA = {
-    "prompt": {
+    "prompts": {
         'datatype': 'STRING',
         'required': True,
         'shape': [1],
