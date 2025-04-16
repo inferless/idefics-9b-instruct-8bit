@@ -1,5 +1,5 @@
 # Idefics-9b-Instruct (8 Bit Quantized)
-Idefics-9b-Instruct is a text generation model. You can use this template to import it into Inferless.
+ Idefics-9b-Instruct is a 9-billion parameter instruction-tuned model built for following user commands and generating text. It’s designed for tasks like answering questions, summarizing, and content creation, offering efficient performance in various instruction-driven applications
 
 **Note**- This is an 8bit quantized version. For a regular version use - https://github.com/ujjawalPeak01/idefics-9b-instruct
 
@@ -31,44 +31,6 @@ Select the PyTorch as framework and choose **Repo(custom code)** as your model s
 After the create model step, while setting the configuration for the model make sure to select the appropriate runtime.
 
 Enter all the required details to Import your model. Refer [this link](https://docs.inferless.com/integrations/github-custom-code) for more information on model import.
-
-The following is a sample Input and Output JSON for this model which you can use while importing this model on Inferless.
-
-### Input
-```json
-{
-  "inputs": [
-    {
-      "data": [
-        "What should I eat after a workout session?"
-      ],
-      "name": "prompts",
-      "shape": [
-        1
-      ],
-      "datatype": "BYTES"
-    }
-  ]
-}
-```
-
-### Output
-```json
-{
-  "outputs": [
-    {
-      "name": "generated_text",
-      "datatype": "BYTES",
-      "shape": [
-        1
-      ],
-      "data": [
-        "Blank"
-      ]
-    }
-  ]
-}
-```
 
 ---
 ## Curl Command
