@@ -1,8 +1,6 @@
 # Idefics-9b-Instruct (8 Bit Quantized)
  Idefics-9b-Instruct is a 9-billion parameter instruction-tuned model built for following user commands and generating text. It’s designed for tasks like answering questions, summarizing, and content creation, offering efficient performance in various instruction-driven applications
 
-**Note**- This is an 8bit quantized version. For a regular version use - https://github.com/ujjawalPeak01/idefics-9b-instruct
-
 ---
 ## Prerequisites
 - **Git**. You would need git installed on your system if you wish to customize the repo after forking.
